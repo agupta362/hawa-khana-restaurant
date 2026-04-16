@@ -31,7 +31,7 @@ function Home() {
           </p>
         </div>
         <div className="welcome-image">
-          <img src="restaurant-hero-photo.png" alt="Bigreko Khana Restaurant" />
+          <img src="restaurant-hero-photo.png" alt="Hawa Khana Restaurant" />
         </div>
       </section>
 
@@ -55,7 +55,7 @@ function Home() {
           <div className="feature-card">
             <div className="feature-icon">❤️</div>
             <h3>Serious Food, Silly Name</h3>
-            <p>Don't let the name "Bigreko Khana" fool you—we are incredibly serious about the quality of our ingredients. Every dish is a handcrafted masterpiece designed to prove that great food doesn't have to be formal.</p>
+            <p>Don't let the name "Hawa Khana" fool you—we are incredibly serious about the quality of our ingredients. Every dish is a handcrafted masterpiece designed to prove that great food doesn't have to be formal.</p>
           </div>
         </div>
       </section>

@@ -13,15 +13,17 @@
 }
 
 body {
+  /* Using Open Sans for readability and your Deep Grey for text [cite: 158, 415] */
   font-family: "Open Sans", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
-  color: #333;
-  background-color: #fafafa; /* TODO: Change to YOUR background color */
+  color: #457B9D; /* Updated to Deep Grey [cite: 415] */
+  background-color: #F1FAEE; /* Updated to Soft White [cite: 415] */
 }
 
 h1,
 h2,
 h3 {
+  /* Using Playfair Display for a professional header look [cite: 158] */
   font-family: "Playfair Display", Georgia, "Times New Roman", serif;
 }
 

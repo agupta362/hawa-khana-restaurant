@@ -11,23 +11,23 @@ function Contact() {
 
   // ============================================================
   // VALIDATION FUNCTION
-  // This checks all form fields and returns any errors found.
+  // Acts as the gatekeeper to ensure we get real info.
   // ============================================================
   function validate() {
     const newErrors = {};
 
     if (!formData.name.trim()) {
-      newErrors.name = "Name is required.";
+      newErrors.name = "We need to know who to thank!";
     }
 
     if (!formData.email.trim()) {
-      newErrors.email = "Email is required.";
+      newErrors.email = "We can't reply if we don't have your email.";
     } else if (!/\S+@\S+\.\S+/.test(formData.email)) {
-      newErrors.email = "Please enter a valid email address.";
+      newErrors.email = "That doesn't look like a real email address.";
     }
 
     if (!formData.message.trim()) {
-      newErrors.message = "Message is required.";
+      newErrors.message = "Don't leave us hanging—say something!";
     }
 
     return newErrors;
@@ -35,8 +35,7 @@ function Contact() {
 
   // ============================================================
   // HANDLE INPUT CHANGES
-  // Updates form data as the user types. Also clears errors
-  // for that field so the red message disappears.
+  // Updates state as you type and clears red error messages.
   // ============================================================
   function handleChange(e) {
     setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -52,7 +51,7 @@ function Contact() {
 
   // ============================================================
   // HANDLE FORM SUBMISSION
-  // Validates first. If valid, shows success and clears form.
+  // The final check before showing the success message.
   // ============================================================
   function handleSubmit(e) {
     e.preventDefault();
@@ -64,20 +63,18 @@ function Contact() {
       return;
     }
 
-    // TODO: You can customize this success message
-    setStatus("Thank you for reaching out! We'll get back to you soon.");
+    // Custom success message for Bigreko Khana
+    setStatus("Message sent! We'll get back to you faster than a fresh plate of momos.");
     setFormData({ name: "", email: "", message: "" });
     setErrors({});
   }
 
   return (
     <div className="page">
-      {/* ============================================================
-          TODO: Customize the heading and subtitle text below.
-          ============================================================ */}
       <div className="contact-header">
-        <h1>Contact Us</h1>
-        <p>We'd love to hear from you!</p>
+        {/* Custom Heading & Subtitle */}
+        <h1>Contact Bigreko Khana</h1>
+        <p>Got a question? A compliment? Just want to talk about our weird name? We're all ears.</p>
       </div>
 
       <div className="form-container">
@@ -94,7 +91,7 @@ function Contact() {
               name="name"
               value={formData.name}
               onChange={handleChange}
-              placeholder="Your full name"
+              placeholder="What should we call you?"
             />
             {errors.name && <span className="error">{errors.name}</span>}
           </div>
@@ -108,7 +105,7 @@ function Contact() {
               name="email"
               value={formData.email}
               onChange={handleChange}
-              placeholder="your.email@example.com"
+              placeholder="Your digital address goes here..."
             />
             {errors.email && <span className="error">{errors.email}</span>}
           </div>
@@ -121,7 +118,7 @@ function Contact() {
               name="message"
               value={formData.message}
               onChange={handleChange}
-              placeholder="How can we help you?"
+              placeholder="Tell us everything..."
               rows="5"
             ></textarea>
             {errors.message && <span className="error">{errors.message}</span>}
