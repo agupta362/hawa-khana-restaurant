@@ -54,7 +54,7 @@ function Menu() {
   return (
     <div className="page">
       <div className="menu-header">
-        <h1>Bigreko Khana Menu</h1> {/* [cite: 28] */}
+        <h1>Hawa Khana Menu</h1> {/* [cite: 28] */}
         <p>Experience the best of Modern Nepali Fusion.</p> {/* [cite: 8] */}
       </div>
 

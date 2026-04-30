@@ -20,13 +20,13 @@ function About() {
           ============================================================ */}
       <div className="about-story">
         <p>
-          The story of Bigreko Khana began as a small joke among a group of software developers who wanted to find "real food" that didn't feel like a corporate script. Inspired by the quirky Nepali phrase for "spoiled food," our founder decided to flip the script and create a space where the name was silly but the quality was unmatched. What started as a late-night kitchen experiment blending traditional Himalayan spices with modern street food favorites quickly became a local sensation, driven by a passion for unique flavor profiles.
+          The story of Hawa Khana began as a small joke among a group of software developers who wanted to find "real food" that didn't feel like a corporate script. Inspired by the quirky Nepali phrase for "spoiled food," our founder decided to flip the script and create a space where the name was silly but the quality was unmatched. What started as a late-night kitchen experiment blending traditional Himalayan spices with modern street food favorites quickly became a local sensation, driven by a passion for unique flavor profiles.
         </p>
         <p>
-          As word spread, the "Bigreko" concept grew from a weekend pop-up to a permanent home in the heart of the city. We faced the challenge of staying true to our traditional roots while embracing a high-energy, modern vibe, but our community of culinary explorers kept us moving forward. Today, we are known as the go-to spot for anyone who wants a meal that is both comforting and completely unexpected, proving that a weird name is often a sign of a great story.
+          As word spread, the "Hawa" concept grew from a weekend pop-up to a permanent home in the heart of the city. We faced the challenge of staying true to our traditional roots while embracing a high-energy, modern vibe, but our community of culinary explorers kept us moving forward. Today, we are known as the go-to spot for anyone who wants a meal that is both comforting and completely unexpected, proving that a weird name is often a sign of a great story.
         </p>
         <p>
-          Our mission is to bridge the gap between "Tech and Tradition," offering a high-energy space where every guest feels like a part of the family. We want you to feel the warmth of a traditional kitchen and the excitement of modern innovation the moment you walk through our doors. It is this commitment to high-quality ingredients and a relaxed, friendly atmosphere that keeps our guests coming back for more—because at Bigreko Khana, the only thing "broken" is the mold of the traditional restaurant.
+          Our mission is to bridge the gap between "Tech and Tradition," offering a high-energy space where every guest feels like a part of the family. We want you to feel the warmth of a traditional kitchen and the excitement of modern innovation the moment you walk through our doors. It is this commitment to high-quality ingredients and a relaxed, friendly atmosphere that keeps our guests coming back for more—because at Hawa Khana, the only thing "broken" is the mold of the traditional restaurant.
         </p>
       </div>
 

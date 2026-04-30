@@ -63,7 +63,7 @@ function Contact() {
       return;
     }
 
-    // Custom success message for Bigreko Khana
+    // Custom success message for Hawa Khana
     setStatus("Message sent! We'll get back to you faster than a fresh plate of momos.");
     setFormData({ name: "", email: "", message: "" });
     setErrors({});
@@ -73,7 +73,7 @@ function Contact() {
     <div className="page">
       <div className="contact-header">
         {/* Custom Heading & Subtitle */}
-        <h1>Contact Bigreko Khana</h1>
+        <h1>Contact Hawa Khana</h1>
         <p>Got a question? A compliment? Just want to talk about our weird name? We're all ears.</p>
       </div>
 

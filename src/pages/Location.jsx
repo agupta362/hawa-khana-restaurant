@@ -1,14 +1,14 @@
 import React from "react";
 
 /**
- * Location Component for Bigreko Khana Restaurant 
+ * Location Component for Hawa Khana Restaurant 
  * This page displays the physical address, hours of operation, and map.
  */
 function Location() {
   return (
     <div className="page">
       <div className="location-header">
-        <h1>Find Bigreko Khana</h1>
+        <h1>Find Hawa Khana</h1>
       </div>
 
       <div className="location-content">
@@ -16,7 +16,7 @@ function Location() {
         <div className="location-info">
           <h2>Address</h2>
           <p>123 Fusion Way</p>
-          <p>Kathmandu, Nepal 44600</p>
+          <p>Kathmandu, Nepal, 44600</p>
           <p className="phone">+977 9866113000</p>
 
           <h2>Hours of Operation</h2>
