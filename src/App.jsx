@@ -10,7 +10,7 @@ import "./App.css";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/hawa-khana-restaurant">
       <Navbar />
       <main className="main-content">
         <Routes>
